@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@100&display=swap');
+body {
+    margin: 0;
+    font-family: 'Roboto';
+    color: white;
+    background: rgb(32, 32, 32);
+}
+.header {
+    text-align: center;
+    font-size: 30px;
+}
+.maintext {
+    font-size: 20px;
+    text-align: center;
+}
+/*buttons*/
+.button {
+    border: none;
+    border-radius: 30px;
+    background: #202020;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.3s;
+  } 
