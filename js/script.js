@@ -1,7 +1,7 @@
 //very very long JavaScript code
 function aboutPage() {
-    window.open("../html/about.html", "_self")
+    window.open("../html/about.html")
 }
 function monkeyLand() {
-    window.open("../html/monkeyland.html", "_self")
+    window.open("../html/monkeyland.html")
 }

@@ -1,7 +1,7 @@
 .header{
     font-size: 60px;
     text-align: center;
-    min-height: 30px;
+    min-height: 300px;
 }
 /*buttons*/
 .button {
@@ -21,9 +21,8 @@
 .button:hover{
     border: none;
     border-radius: 30px;
-    background: #ffffff;
-    opacity: 0.5;
-    color: #000000;
+    background: rgb(255, 255, 255);
+    color: #202020;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
