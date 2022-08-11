@@ -1,14 +1,49 @@
+a {
+    font-size: 30px;
+    text-decoration: none;
+    color: inherit;
+    height: 30px;
+    width: 50px;
+    cursor:crosshair;
+}
+a:hover{
+    animation: fadeIn 0.8s;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+    height: 30px;
+    width: 50px;
+    cursor:crosshair; 
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+.profimg {
+    border-radius: 50%;
+}
+.profile {
+    
+    cursor: pointer;
+    height: 70px;
+    width: 70px;
+    margin-left: auto;
+    display: block;
+    
+}
 .header{
     font-size: 60px;
     text-align: center;
-    min-height: 300px;
+    min-height: 0px;
 }
 /*buttons*/
 .button {
+    text-decoration-style: none;
+    color: inherit;
     border: none;
     border-radius: 30px;
     background: #202020;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255) !important;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -17,11 +52,14 @@
     margin: 4px 2px;
     cursor: pointer;
     transition: 0.3s;
+    
   } 
 .button:hover{
+    animation: fadeIn 0.8s;
+    color: inherit;
     border: none;
     border-radius: 30px;
-    background: rgb(255, 255, 255);
+    background: rgb(255, 255, 255) !important;
     color: #202020;
     padding: 15px 32px;
     text-align: center;

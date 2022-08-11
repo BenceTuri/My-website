@@ -9,7 +9,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/about.css">
     <title>About</title>
+    <div class="profile">
+        <a href="../index.html">
+          <img class="profimg" alt="Qries" src="../img/profil.jpg"
+          width=70" height="70"></a></div>
     <h1 class="header">About me</h1>
+    <script>
+function yt(){
+    window.open("https://www.youtube.com/channel/UCQu6lnqYW_oSIukA8696SVA");
+}
+function tw(){
+    window.open("https://twitter.com/turibence99");
+}
+function gh(){
+    window.open("https://github.com/BenceTuri");
+}
+      </script>
 </head>
 <body>
     <p class="maintext" id="start">My name is Turi Bence, I born in 2008, December 19. <br>
@@ -20,6 +35,10 @@
     Now, because of age and probably math problems, I understand the code, and know how to do it. <br>
     Currently, the languages I use are the three web-dev languages(HTML, CSS, JavaScript), C# for apps and Unity and python for basic programming. I also use GDscript, wich is a language built-in to the Godot game engine.
     </p>
-    <button class="button" onclick="yt()">YouTube</button>
+    <div class="btndiv">
+        <button class="button" onclick="yt()">YouTube</button>
+        <button class="button" onclick="tw()">Twitter</button>
+        <button class="button" onclick="gh()">Github</button>
+    </div>
 </body>
 </html>
